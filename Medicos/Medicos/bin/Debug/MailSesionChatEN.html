@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>Hello %NOMBRE_PACIENTE% %APELLIDO_PACIENTE%:</p>
+    <p>You receive this e-mail because you have received a differential diagnosis via HelloCare. Here is a copy of all messages and files your doctor and you have sent each other, so that you can check them later. You will also find on this e-mail information regarding the illness diagnosed by the doctor together with any medical advice he may have provided.</p>
+    <p>Remember you can always contact the same professional again in case you have any doubts about the diagnosis.</p>
+    <p>If you present another, unrelated clinical picture in the future, please begin a new diagnosis process by clicking on "I have some symptoms" in the program's main menu.</p>
+    <p>Yours sincerely,</p>
+    <p>The HelloCare Team</p>
+    <br />
+    <p><b>Differential diagnosis</b></p>
+    <ul>
+        <li>Diagnosed illness: %ENFERMEDAD%</li>
+        <li>Description: %DESCRIPCION%</li>
+        <li>Severity: %GRAVEDAD%%</li>
+        <li>Treating physician: %NOMBRE_MEDICO% %APELLIDO_MEDICO%</li>
+        <li>Diagnosis date and time: %FECHAHORA%.</li>
+        <li>Medical advice: %RECOMENDACIONES%</li>
+        <li>Physician's indications: %CONDUCTA%</li>
+        <li>Medical specialty: %ESPECIALIDAD%<br /></li>
+    </ul>
+    <br />
+    <p><b>Symptoms you may develop</b></p>
+    <table style="border: 1px solid black; border-collapse:collapse; padding: 5px 5px 5px 5px;">
+        <tr>
+            <th style="border: 1px solid black; width: 120px;">Name</th>
+            <th style="border: 1px solid black; width: 120px;">Frequency</th>
+        </tr>
+        %SINTOMAS%
+    </table>
+    <br />
+    <p><b>Chat session</b></p>
+    <p>%CHAT%</p>
+</body>
+</html>

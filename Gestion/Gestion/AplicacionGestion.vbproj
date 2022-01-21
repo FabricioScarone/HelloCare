@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B0865A5-2386-4853-8867-08058CB4FEA9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AplicacionGestion.My.MyApplication</StartupObject>
+    <RootNamespace>AplicacionGestion</RootNamespace>
+    <AssemblyName>AplicacionGestion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AplicacionGestion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AplicacionGestion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono_hellocare.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CapaLogica">
+      <HintPath>..\..\Backend\CapaLogica\bin\Debug\CapaLogica.dll</HintPath>
+    </Reference>
+    <Reference Include="Clases">
+      <HintPath>..\..\Backend\CapaLogica\bin\Debug\Clases.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAltaAdministrativo.designer.vb">
+      <DependentUpon>FrmAltaAdministrativo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaAdministrativo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaMedico.designer.vb">
+      <DependentUpon>FrmAltaMedico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaPaciente.designer.vb">
+      <DependentUpon>FrmAltaPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfiguracion.designer.vb">
+      <DependentUpon>FrmConfiguracion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfiguracion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContrasenaOlvidada.designer.vb">
+      <DependentUpon>FrmContrasenaOlvidada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContrasenaOlvidada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicio.Designer.vb">
+      <DependentUpon>FrmInicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoAdministrativos.designer.vb">
+      <DependentUpon>FrmListadoAdministrativos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListadoAdministrativos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoMedicos.designer.vb">
+      <DependentUpon>FrmListadoMedicos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListadoMedicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoPacientes.designer.vb">
+      <DependentUpon>FrmListadoPacientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListadoPacientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaEnfermedades.Designer.vb">
+      <DependentUpon>FrmAltaEnfermedades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaEnfermedades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.Designer.vb">
+      <DependentUpon>FrmMenuPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaSintomas.Designer.vb">
+      <DependentUpon>FrmAltaSintomas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaSintomas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoEnfermedades.Designer.vb">
+      <DependentUpon>FrmListadoEnfermedades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListadoEnfermedades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoSintomas.Designer.vb">
+      <DependentUpon>FrmListadoSintomas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListadoSintomas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificacionAdministrativo.designer.vb">
+      <DependentUpon>FrmModificacionAdministrativo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificacionAdministrativo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificacionMedico.designer.vb">
+      <DependentUpon>FrmModificacionMedico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificacionMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificacionPaciente.designer.vb">
+      <DependentUpon>FrmModificacionPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificacionPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificacionSintomas.Designer.vb">
+      <DependentUpon>FrmModificacionSintomas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificacionSintomas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificacionEnfermedades.Designer.vb">
+      <DependentUpon>FrmModificacionEnfermedades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificacionEnfermedades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegistro.designer.vb">
+      <DependentUpon>FrmRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegistro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTipoUsuario.designer.vb">
+      <DependentUpon>FrmTipoUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTipoUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerAdministrativo.designer.vb">
+      <DependentUpon>FrmVerAdministrativo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerAdministrativo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerMedicos.designer.vb">
+      <DependentUpon>FrmVerMedicos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerMedicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerPaciente.designer.vb">
+      <DependentUpon>FrmVerPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FrmVerEnfermedades.Designer.vb">
+      <DependentUpon>FrmVerEnfermedades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerEnfermedades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerSintomas.Designer.vb">
+      <DependentUpon>FrmVerSintomas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerSintomas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmAltaAdministrativo.en.resx">
+      <DependentUpon>FrmAltaAdministrativo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaAdministrativo.es.resx">
+      <DependentUpon>FrmAltaAdministrativo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaAdministrativo.resx">
+      <DependentUpon>FrmAltaAdministrativo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaEnfermedades.en.resx">
+      <DependentUpon>FrmAltaEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaEnfermedades.es-UY.resx">
+      <DependentUpon>FrmAltaEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaEnfermedades.es.resx">
+      <DependentUpon>FrmAltaEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaMedico.en.resx">
+      <DependentUpon>FrmAltaMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaMedico.es.resx">
+      <DependentUpon>FrmAltaMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaMedico.resx">
+      <DependentUpon>FrmAltaMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaPaciente.en.resx">
+      <DependentUpon>FrmAltaPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaPaciente.es.resx">
+      <DependentUpon>FrmAltaPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaPaciente.resx">
+      <DependentUpon>FrmAltaPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaSintomas.en.resx">
+      <DependentUpon>FrmAltaSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaSintomas.es.resx">
+      <DependentUpon>FrmAltaSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfiguracion.en.resx">
+      <DependentUpon>FrmConfiguracion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfiguracion.es.resx">
+      <DependentUpon>FrmConfiguracion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfiguracion.resx">
+      <DependentUpon>FrmConfiguracion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContrasenaOlvidada.en.resx">
+      <DependentUpon>FrmContrasenaOlvidada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContrasenaOlvidada.es.resx">
+      <DependentUpon>FrmContrasenaOlvidada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContrasenaOlvidada.resx">
+      <DependentUpon>FrmContrasenaOlvidada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicio.resx">
+      <DependentUpon>FrmInicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoAdministrativos.en-DE.resx">
+      <DependentUpon>FrmListadoAdministrativos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoAdministrativos.en.resx">
+      <DependentUpon>FrmListadoAdministrativos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoAdministrativos.es.resx">
+      <DependentUpon>FrmListadoAdministrativos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoAdministrativos.resx">
+      <DependentUpon>FrmListadoAdministrativos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoEnfermedades.en.resx">
+      <DependentUpon>FrmListadoEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoEnfermedades.es.resx">
+      <DependentUpon>FrmListadoEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoMedicos.en.resx">
+      <DependentUpon>FrmListadoMedicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoMedicos.es.resx">
+      <DependentUpon>FrmListadoMedicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoMedicos.resx">
+      <DependentUpon>FrmListadoMedicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoPacientes.en.resx">
+      <DependentUpon>FrmListadoPacientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoPacientes.es.resx">
+      <DependentUpon>FrmListadoPacientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoPacientes.resx">
+      <DependentUpon>FrmListadoPacientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoSintomas.en.resx">
+      <DependentUpon>FrmListadoSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoSintomas.es.resx">
+      <DependentUpon>FrmListadoSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.en.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.es-419.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.es.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaEnfermedades.resx">
+      <DependentUpon>FrmAltaEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuPrincipal.en.resx">
+      <DependentUpon>FrmMenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuPrincipal.es.resx">
+      <DependentUpon>FrmMenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuPrincipal.resx">
+      <DependentUpon>FrmMenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaSintomas.resx">
+      <DependentUpon>FrmAltaSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoEnfermedades.resx">
+      <DependentUpon>FrmListadoEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoSintomas.resx">
+      <DependentUpon>FrmListadoSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionAdministrativo.en.resx">
+      <DependentUpon>FrmModificacionAdministrativo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionAdministrativo.es.resx">
+      <DependentUpon>FrmModificacionAdministrativo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionAdministrativo.resx">
+      <DependentUpon>FrmModificacionAdministrativo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionEnfermedades.en.resx">
+      <DependentUpon>FrmModificacionEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionEnfermedades.es.resx">
+      <DependentUpon>FrmModificacionEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionMedico.en.resx">
+      <DependentUpon>FrmModificacionMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionMedico.es.resx">
+      <DependentUpon>FrmModificacionMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionMedico.resx">
+      <DependentUpon>FrmModificacionMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionPaciente.en.resx">
+      <DependentUpon>FrmModificacionPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionPaciente.es.resx">
+      <DependentUpon>FrmModificacionPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionPaciente.resx">
+      <DependentUpon>FrmModificacionPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionSintomas.en.resx">
+      <DependentUpon>FrmModificacionSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionSintomas.es.resx">
+      <DependentUpon>FrmModificacionSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionSintomas.resx">
+      <DependentUpon>FrmModificacionSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificacionEnfermedades.resx">
+      <DependentUpon>FrmModificacionEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistro.en.resx">
+      <DependentUpon>FrmRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistro.es.resx">
+      <DependentUpon>FrmRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistro.resx">
+      <DependentUpon>FrmRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTipoUsuario.en.resx">
+      <DependentUpon>FrmTipoUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTipoUsuario.es.resx">
+      <DependentUpon>FrmTipoUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTipoUsuario.resx">
+      <DependentUpon>FrmTipoUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerAdministrativo.en.resx">
+      <DependentUpon>FrmVerAdministrativo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerAdministrativo.es.resx">
+      <DependentUpon>FrmVerAdministrativo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerAdministrativo.resx">
+      <DependentUpon>FrmVerAdministrativo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerEnfermedades.en.resx">
+      <DependentUpon>FrmVerEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerEnfermedades.es.resx">
+      <DependentUpon>FrmVerEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerMedicos.en.resx">
+      <DependentUpon>FrmVerMedicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerMedicos.es.resx">
+      <DependentUpon>FrmVerMedicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerMedicos.resx">
+      <DependentUpon>FrmVerMedicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerPaciente.en-DE.resx">
+      <DependentUpon>FrmVerPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerPaciente.en.resx">
+      <DependentUpon>FrmVerPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerPaciente.es.resx">
+      <DependentUpon>FrmVerPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerPaciente.resx">
+      <DependentUpon>FrmVerPaciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerSintomas.en.resx">
+      <DependentUpon>FrmVerSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerSintomas.es.resx">
+      <DependentUpon>FrmVerSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerEnfermedades.resx">
+      <DependentUpon>FrmVerEnfermedades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerSintomas.resx">
+      <DependentUpon>FrmVerSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Manual.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icono_hellocare.ico" />
+    <Content Include="MailAltaAdministrativosEN.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailAltaAdministrativosES.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailAltaMedicosEN.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailAltaMedicosES.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailAltaPacientesEN.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailAltaPacientesES.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailRegistroUsuarioEN.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailRegistroUsuarioES.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailRestaurarContrasenaEN.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailRestaurarContrasenaES.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,190 @@
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.exe.config
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmInicio.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmLogin.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaEnfermedades.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmMenuPrincipal.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaSintomas.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoEnfermedades.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoSintomas.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionSintomas.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionEnfermedades.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.Resources.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerEnfermedades.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerSintomas.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.vbproj.GenerateResource.cache
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\AplicacionGestion.exe.config
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\AplicacionGestion.exe
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\AplicacionGestion.pdb
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\AplicacionGestion.xml
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\CapaLogica.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\Clases.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\CapaPersistencia.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MySql.Data.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\Google.Protobuf.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\Zstandard.Net.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\Renci.SshNet.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\System.Buffers.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\System.Memory.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\CapaLogica.pdb
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\CapaLogica.xml
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\Clases.pdb
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\Clases.xml
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\CapaPersistencia.pdb
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\CapaPersistencia.xml
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MySql.Data.xml
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.vbproj.CopyComplete
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.exe
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.xml
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.pdb
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\AplicacionGestion.exe.config
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\AplicacionGestion.exe
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\AplicacionGestion.pdb
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\AplicacionGestion.xml
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\CapaLogica.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\Clases.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\MySql.Data.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\CapaPersistencia.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\Google.Protobuf.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\Zstandard.Net.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\Renci.SshNet.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\System.Buffers.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\System.Memory.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\CapaLogica.pdb
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\CapaLogica.xml
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\Clases.pdb
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\Clases.xml
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\MySql.Data.xml
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\CapaPersistencia.pdb
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\bin\Debug\CapaPersistencia.xml
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.vbprojAssemblyReference.cache
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.exe.config
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmConfiguracion.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmContrasenaOlvidada.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmInicio.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmLogin.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaEnfermedades.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmMenuPrincipal.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaSintomas.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoEnfermedades.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoSintomas.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionSintomas.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionEnfermedades.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmRegistro.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.Resources.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerEnfermedades.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerSintomas.resources
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.vbproj.GenerateResource.cache
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.vbproj.CopyComplete
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.exe
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.xml
+C:\Users\marce\Downloads\Look and feel\HelloCare-master\Gestion\Gestion\obj\Debug\AplicacionGestion.pdb
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmConfiguracion.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmContrasenaOlvidada.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmRegistro.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\en\AplicacionGestion.resources.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\es-UY\AplicacionGestion.resources.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\es\AplicacionGestion.resources.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaEnfermedades.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaEnfermedades.es-UY.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaSintomas.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaSintomas.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmConfiguracion.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmConfiguracion.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmContrasenaOlvidada.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmContrasenaOlvidada.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoEnfermedades.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoEnfermedades.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoSintomas.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoSintomas.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmLogin.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmLogin.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmMenuPrincipal.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmMenuPrincipal.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionEnfermedades.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionEnfermedades.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionSintomas.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionSintomas.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmRegistro.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmRegistro.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerEnfermedades.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerEnfermedades.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerSintomas.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerSintomas.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\en\AplicacionGestion.resources.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\es-UY\AplicacionGestion.resources.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\es\AplicacionGestion.resources.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MailAltaAdministrativosEN.html
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MailAltaAdministrativosES.html
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MailAltaMedicosEN.html
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MailAltaMedicosES.html
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MailAltaPacientesEN.html
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MailAltaPacientesES.html
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MailRegistroUsuarioEN.html
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MailRegistroUsuarioES.html
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MailRestaurarContrasenaEN.html
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\MailRestaurarContrasenaES.html
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\es-419\AplicacionGestion.resources.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaEnfermedades.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmLogin.es-419.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\es-419\AplicacionGestion.resources.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaAdministrativo.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaMedico.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaPaciente.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoAdministrativos.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoMedicos.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoPacientes.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionAdministrativo.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionMedico.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionPaciente.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmTipoUsuario.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerAdministrativo.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerMedicos.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerPaciente.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaAdministrativo.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaAdministrativo.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaMedico.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaMedico.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaPaciente.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmAltaPaciente.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoAdministrativos.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoAdministrativos.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoMedicos.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoMedicos.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoPacientes.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoPacientes.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionAdministrativo.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionAdministrativo.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionMedico.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionMedico.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionPaciente.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmModificacionPaciente.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmTipoUsuario.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmTipoUsuario.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerAdministrativo.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerAdministrativo.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerMedicos.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerMedicos.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerPaciente.en.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerPaciente.es.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmVerPaciente.en-DE.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\en-DE\AplicacionGestion.resources.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\en-DE\AplicacionGestion.resources.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\obj\Debug\AplicacionGestion.FrmListadoAdministrativos.en-DE.resources
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\Manual.pdf
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\itextsharp.dll
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\CapaLogica.dll.config
+C:\Users\marce\source\repos\HelloCare\Gestion\Gestion\bin\Debug\itextsharp.xml

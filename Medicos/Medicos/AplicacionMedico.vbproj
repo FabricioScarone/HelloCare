@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1FA17EB3-A5D9-46D7-9735-008E621F1B28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AplicacionMedico.My.MyApplication</StartupObject>
+    <RootNamespace>AplicacionMedico</RootNamespace>
+    <AssemblyName>AplicacionMedico</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AplicacionMedico.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AplicacionMedico.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CapaLogica">
+      <HintPath>..\..\Backend\CapaLogica\bin\Debug\CapaLogica.dll</HintPath>
+    </Reference>
+    <Reference Include="Clases">
+      <HintPath>..\..\Backend\CapaLogica\bin\Debug\Clases.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmChatMedico.Designer.vb">
+      <DependentUpon>FrmChatMedico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChatMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContrasenaOlvidada.designer.vb">
+      <DependentUpon>FrmContrasenaOlvidada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContrasenaOlvidada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicio.Designer.vb">
+      <DependentUpon>FrmInicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.Designer.vb">
+      <DependentUpon>FrmMenuPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNuevoDiagnostico.Designer.vb">
+      <DependentUpon>FrmNuevoDiagnostico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNuevoDiagnostico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHistorialChats.Designer.vb">
+      <DependentUpon>FrmHistorialChats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHistorialChats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHistorialPacientes.Designer.vb">
+      <DependentUpon>FrmHistorialPacientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHistorialPacientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegistro.designer.vb">
+      <DependentUpon>FrmRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegistro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FrmPeticionesChat.Designer.vb">
+      <DependentUpon>FrmPeticionesChat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPeticionesChat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmChatMedico.en.resx">
+      <DependentUpon>FrmChatMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChatMedico.es.resx">
+      <DependentUpon>FrmChatMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChatMedico.resx">
+      <DependentUpon>FrmChatMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContrasenaOlvidada.en.resx">
+      <DependentUpon>FrmContrasenaOlvidada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContrasenaOlvidada.es.resx">
+      <DependentUpon>FrmContrasenaOlvidada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContrasenaOlvidada.resx">
+      <DependentUpon>FrmContrasenaOlvidada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHistorialChats.en.resx">
+      <DependentUpon>FrmHistorialChats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHistorialChats.es.resx">
+      <DependentUpon>FrmHistorialChats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHistorialChats.resx">
+      <DependentUpon>FrmHistorialChats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHistorialPacientes.en.resx">
+      <DependentUpon>FrmHistorialPacientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHistorialPacientes.es.resx">
+      <DependentUpon>FrmHistorialPacientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHistorialPacientes.resx">
+      <DependentUpon>FrmHistorialPacientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicio.resx">
+      <DependentUpon>FrmInicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.en.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.es.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuPrincipal.en.resx">
+      <DependentUpon>FrmMenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuPrincipal.es.resx">
+      <DependentUpon>FrmMenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuPrincipal.resx">
+      <DependentUpon>FrmMenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNuevoDiagnostico.en.resx">
+      <DependentUpon>FrmNuevoDiagnostico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNuevoDiagnostico.es.resx">
+      <DependentUpon>FrmNuevoDiagnostico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNuevoDiagnostico.resx">
+      <DependentUpon>FrmNuevoDiagnostico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPeticionesChat.en.resx">
+      <DependentUpon>FrmPeticionesChat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPeticionesChat.es.resx">
+      <DependentUpon>FrmPeticionesChat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPeticionesChat.resx">
+      <DependentUpon>FrmPeticionesChat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistro.en.resx">
+      <DependentUpon>FrmRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistro.es.resx">
+      <DependentUpon>FrmRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistro.resx">
+      <DependentUpon>FrmRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo 2 hellocare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo 3 hellocare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo 1 hellocare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MailRegistroUsuarioEN.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailRegistroUsuarioES.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailRestaurarContrasenaEN.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailRestaurarContrasenaES.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailSesionChatEN.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MailSesionChatES.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

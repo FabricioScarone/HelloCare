@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>Hola %NOMBRE_PACIENTE% %APELLIDO_PACIENTE%:</p>
+    <p>Te enviamos este correo porque has recibido un diagnóstico diferencial a través de HelloCare. Te enviamos una copia de los mensajes y archivos que el médico y tú han intercambiado para que los puedas revisar en el futuro. También hallarás en este correo información del diagnóstico realizado por el profesional, así como cualquier indicación médica que te haya dado.</p>
+    <p>Recuerda que siempre puedes volver a contactar con el mismo profesional en caso de dudas relacionadas con el diagnóstico.</p>
+    <p>Si presentases otro cuadro sintomático en el futuro, te pedimos amablemente que inicies otro diagnóstico a través de la opción "Tengo algunos síntomas" en el menú principal de la aplicación.</p>
+    <p>Saludos cordiales,</p>
+    <p>El equipo de HelloCare</p>
+    <br />
+    <p><b>Diagnóstico diferencial</b></p>
+    <ul>
+        <li>Enfermedad diagnosticada: %ENFERMEDAD%</li>
+        <li>Descripción: %DESCRIPCION%</li>
+        <li>Gravedad: %GRAVEDAD%%</li>
+        <li>Médico tratante: %NOMBRE_MEDICO% %APELLIDO_MEDICO%</li>
+        <li>Fecha y hora del diagnóstico: %FECHAHORA%.</li>
+        <li>Recomendaciones: %RECOMENDACIONES%</li>
+        <li>Conducta a seguir: %CONDUCTA%</li>
+        <li>Especialidad médica: %ESPECIALIDAD%<br /></li>
+    </ul>
+    <br />
+    <p><b>Síntomas que puede presentar</b></p>
+    <table style="border: 1px solid black; border-collapse:collapse; padding: 5px 5px 5px 5px;">
+        <tr>
+            <th style="border: 1px solid black; width: 120px;">Nombre</th>
+            <th style="border: 1px solid black; width: 120px;">Frecuencia</th>
+        </tr>
+        %SINTOMAS%
+    </table>
+    <br />
+    <p><b>Sesión de chat</b></p>
+    <p>%CHAT%</p>
+</body>
+</html>
